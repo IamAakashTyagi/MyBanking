@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Banking</string>
+    <string name="transations">TRANSATIONS</string>
+    <string name="customersEntity">CUSTOMERS</string>
+    <string name="payBtn">Pay</string>
+    <string name="amount">Amount</string>
+    <string name="mmm_dd">mmm dd</string>
+    <string name="you_paid">You Paid</string>
+    <string name="done_btn">Done</string>
+    <string name="_12">$ 12</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:id="@+id/cardViewTransferSingleRecycle"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="2dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:text="$"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTransferdMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtSymbol"
+            android:text="125"
+            android:textColor="#000"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSymbol"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_check_circle_24"
+            android:drawablePadding="4dp"
+            android:padding="4dp"
+            android:text="@string/you_paid"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/txtDateTransfered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSymbol"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/txtPaid"
+            android:padding="4dp"
+            android:text="@string/mmm_dd"
+            android:textColor="#000" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
